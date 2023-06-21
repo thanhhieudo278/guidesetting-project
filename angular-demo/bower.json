@@ -1,0 +1,17 @@
+{
+  "name": "angular-demo",
+  "description": "",
+  "main": "",
+  "authors": [
+    "DESKTOP-L2G9H4C\\thanh <thanhhieudo278@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

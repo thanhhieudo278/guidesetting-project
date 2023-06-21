@@ -1,0 +1,85 @@
+html,
+body,
+.full-height{
+    height: 100%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.float-right{
+    float: right;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+main{
+    height: calc(100% - 50px);
+}
+
+body {
+    pointer-events: auto;
+}
+
+.fa, .fas {
+    font-weight: 900;
+}
+
+.nav-tools {
+    font-size: 13px;
+    height: 46px;
+    margin-bottom: 0;
+    z-index: 4;
+    position: relative;
+    min-height: 46px;
+    line-height: 40px;
+    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, 0.1);
+    background-color: var(--secondarybg-color);
+}
+
+.nav-tools>.col.s12 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+.nav-tools .tool1 a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nav-tools .tool1 a:hover {
+    color:#000;
+}
+
+.nav-tools .tool1>a {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 4px 5px 6px;
+    background-color: var(--bgbutton-color);
+    color: #6b6b6b;
+    position: relative;
+    margin-right: 1px;
+}
+
+.nav-tools .tool1 a i, .nav-tools .tool1 .dropdown-trigger i, .nav-tools .tool1 .dropdown-trigger2 i {
+    margin-left: 0;
+    margin-right: 1px;
+    font-size: 12px;
+}
